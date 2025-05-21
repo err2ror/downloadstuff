@@ -2,13 +2,6 @@
   <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <style>
-      body{
-        font-family: "Press Start 2P";
-        background-color: #000000;
-        color: #ffffff
-      }
-    </style>
   </head>
   <body>
     <h1>Some penguinmod projects</h1>
