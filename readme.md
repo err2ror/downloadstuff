@@ -1,3 +1,3 @@
-# Some penguinmod projects
-
-[OrsoShoot](OrsoShoot%20Plus.pmp)
+---
+redirect_to: readme.html
+---
