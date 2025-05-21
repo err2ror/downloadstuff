@@ -1,14 +1,11 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Some penguinmod projects</h1>
-    <button>
-      <a href="OrsoShoot Plus.pmp" download>
-        OrsoShoot
-      </a>
-    </button>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="1;url=index.html"> <!-- Redirects after 1 second -->
+    <title>Redirecting...</title>
+</head>
+<body>
+</body>
 </html>
