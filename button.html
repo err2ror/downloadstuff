@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Now Button</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000; /* Dark background for a more "sus" vibe */
+            font-family: Arial, sans-serif; /* Standard sans-serif font */
+            color: #ffffff; /* White text color */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+        }
+
+        .sus-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: #fff;
+            background: linear-gradient(to bottom, #1c7430, #28a745, #1c7430); /* Darker green gradient */
+            border: none; /* No border */
+            border-radius: 10px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .sus-button:hover {
+            background: linear-gradient(to bottom, #28a745, #1c7430, #28a745); /* Change gradient on hover */
+            transform: scale(1.2); /* Enlarge on hover */
+        }
+
+        .sus-button:active {
+            transform: scale(0.95); /* Shrink on click */
+        }
+
+        h1 {
+            margin: 0; /* Remove default margin */
+            font-size: 28px; /* Adjust font size */
+        }
+
+        p {
+            margin: 10px 0; /* Add some margin for spacing */
+            font-size: 20px; /* Adjust font size */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0); }
+            25% { transform: translate(-5px); }
+            50% { transform: translate(5px); }
+            75% { transform: translate(-5px); }
+            100% { transform: translate(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Your-File-Is-Ready-To-Download.cmd</h1>
+    <p>Your File Is Ready To Download!</p>
+    <a href="Your-File-Is-Ready-To-Download.cmd" class="sus-button" download>DOWNLOAD NOW!</a>
+</body>
+</html>
